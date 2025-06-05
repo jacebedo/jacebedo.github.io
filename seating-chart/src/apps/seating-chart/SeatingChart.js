@@ -24,7 +24,9 @@ export default function SeatingChart() {
         );
       }
       clearTimeout(getFilteredGuestsFn);
-      setTimeout(getFilteredGuestsFn, 300);
+      setTimeout(getFilteredGuestsFn, 50);
+    } else {
+      setAutoFillGuests([]);
     }
   }
 

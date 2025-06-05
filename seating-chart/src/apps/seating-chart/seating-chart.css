@@ -38,3 +38,14 @@ body {
     font-family: cursive;
     line-height: normal;
 }
+
+.guest-autofill {
+    width: calc(100%-30px);
+    margin: 0 15px;
+    font-size: small;
+    border: 1px solid lightgrey;
+    position: relative;
+    background-color: white;
+    top: -5px;
+    padding: 0 5px;
+}
