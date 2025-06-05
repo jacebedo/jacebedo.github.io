@@ -12,6 +12,20 @@ body {
     border-bottom: 1px solid #3B270C;
 }
 
+.guest-entry {
+    margin: 10px 15px;
+    width: calc(100% - 30px);
+}
+
+.guest-entry-input {
+    width: 100%;
+    font-size: small;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 5px;
+    
+}
+
 .header-text {
     font-size: 3em;
     font-family: cursive;
