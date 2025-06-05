@@ -1,0 +1,26 @@
+body {
+    background-color: #eae3c9 
+}
+
+.header {
+    height: 2.5m;
+    /* background-color: #3B270C; */
+    line-height: 2.75em;
+    padding: 5px 0;
+    margin: 0 15px;
+    color: #3B270C;
+    border-bottom: 1px solid #3B270C;
+}
+
+.header-text {
+    font-size: 3em;
+    font-family: cursive;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.header-subtext {
+    font-size: 1em;
+    font-family: cursive;
+    line-height: normal;
+}
