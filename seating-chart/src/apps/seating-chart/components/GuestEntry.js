@@ -1,6 +1,8 @@
 
 
-export default function GuestEntry({guestName, onGuestNameChanged, autoFillGuests}) {
+export default function GuestEntry({guestName, onGuestNameChanged, autoFillGuests, selectedGuest}) {
+  
+  
   return (
     <>
     <div className="guest-entry">
@@ -12,7 +14,7 @@ export default function GuestEntry({guestName, onGuestNameChanged, autoFillGuest
         onChange={(e) => onGuestNameChanged(e.target.value)}
       />
     </div>
-    {autoFillGuests?.length > 0 && 
+    {autoFillGuests?.length > 0 && !selectedGuest && 
       (<div className="guest-autofill">
           {autoFillGuests.map((guest, index) => (
             <div 

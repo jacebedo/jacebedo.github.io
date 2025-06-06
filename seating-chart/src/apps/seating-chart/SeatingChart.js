@@ -8,6 +8,7 @@ import { clear } from '@testing-library/user-event/dist/clear';
 export default function SeatingChart() {
 
   const [guestName, setGuestName] = useState(null);
+  const [selectedGuest, setSelectedGuest] = useState(null);
   const [isGuestValid, setIsGuestValid] = useState(false);
   const [autoFillGuests, setAutoFillGuests] = useState([]);
 
@@ -17,14 +18,21 @@ export default function SeatingChart() {
   }, [guestName, guests, setAutoFillGuests]);
 
   const updateGuestAutofillSource = (guestName) => {
+    setSelectedGuest(null);
     if (guestName && guestName.length > 2) {
-      let getFilteredGuestsFn = () => {
-        setAutoFillGuests(
-          guests.filter(guest => guest.name.toLowerCase().includes(guestName.toLowerCase()))
-        );
+      // if has exact match, close the autofill. Otherwise, filter the list of guests.
+      let exactMatch = guests.find(guest => guest.name.toLowerCase() === guestName.toLowerCase());
+      if (exactMatch) {
+        setSelectedGuest(exactMatch);
+      } else {
+        let getFilteredGuestsFn = () => {
+          setAutoFillGuests(
+            guests.filter(guest => guest.name.toLowerCase().includes(guestName.toLowerCase()))
+          );
+        }
+        clearTimeout(getFilteredGuestsFn);
+        setTimeout(getFilteredGuestsFn, 50);
       }
-      clearTimeout(getFilteredGuestsFn);
-      setTimeout(getFilteredGuestsFn, 50);
     } else {
       setAutoFillGuests([]);
     }
@@ -41,6 +49,7 @@ export default function SeatingChart() {
         guestName={guestName} 
         onGuestNameChanged={setGuestName} 
         autoFillGuests={autoFillGuests}
+        selectedGuest={selectedGuest}
       />
     </>
   )
