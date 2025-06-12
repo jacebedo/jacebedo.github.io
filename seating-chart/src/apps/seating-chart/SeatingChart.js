@@ -2,8 +2,9 @@ import Header from './components/Header';
 import './seating-chart.css';
 import { useState, useEffect } from 'react';
 import GuestEntry from './components/GuestEntry';
+import VenueLayout from './components/VenueLayout';
+import TableInfo from './components/TableInfo';
 import guests from './data/Guests.json';
-import { clear } from '@testing-library/user-event/dist/clear';
 
 export default function SeatingChart() {
 
@@ -51,6 +52,8 @@ export default function SeatingChart() {
         autoFillGuests={autoFillGuests}
         selectedGuest={selectedGuest}
       />
+      <VenueLayout selectedGuest={selectedGuest}/>
+      <TableInfo selectedGuest={selectedGuest}/>
     </>
   )
 };

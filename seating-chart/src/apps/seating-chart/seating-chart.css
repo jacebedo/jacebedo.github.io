@@ -1,15 +1,38 @@
 body {
-    background-color: #eae3c9 
+    background-color: #f7e7ce 
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.4);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .header {
     height: 2.5m;
-    /* background-color: #3B270C; */
     line-height: 2.75em;
     padding: 5px 0;
     margin: 0 15px;
-    color: #3B270C;
-    border-bottom: 1px solid #3B270C;
+    color: #AF7A6D;
+    border-bottom: 2px double #3B270C;
 }
 
 .guest-entry {
@@ -48,4 +71,29 @@ body {
     background-color: white;
     top: -5px;
     padding: 0 5px;
+}
+
+.image-marker__marker {
+    width: 2.75%;
+    height: 2.75%;
+    line-height: 80% !important;
+    min-height: 0;
+    min-width: 0;
+}
+
+.custom-marker {
+    border-radius: 50% !important;
+    background-color: red !important;
+    background-color: brown;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    animation: pulse 1.5s infinite;
+}
+
+
+.table-info {
+    height: 25vh !important;
+    width: 100%;
+    animation:fadeIn 2s ease-in;    
 }

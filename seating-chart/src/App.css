@@ -3,3 +3,7 @@ body {
   padding: 0;
   width: 100vw;
 }
+
+.float-right {
+  float: right !important;
+}
