@@ -7,3 +7,10 @@ body {
 .float-right {
   float: right !important;
 }
+
+.tools {
+  position: absolute;
+  left: 5%;
+  z-index: 999;
+  transform: translateY(55%);
+}

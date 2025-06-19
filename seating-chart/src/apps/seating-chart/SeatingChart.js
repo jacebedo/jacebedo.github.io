@@ -5,6 +5,7 @@ import GuestEntry from './components/GuestEntry';
 import VenueLayout from './components/VenueLayout';
 import TableInfo from './components/TableInfo';
 import guests from './data/Guests.json';
+import { TransformWrapper } from 'react-zoom-pan-pinch';
 
 export default function SeatingChart() {
 
@@ -52,7 +53,9 @@ export default function SeatingChart() {
         autoFillGuests={autoFillGuests}
         selectedGuest={selectedGuest}
       />
-      <VenueLayout selectedGuest={selectedGuest}/>
+      <TransformWrapper>
+        <VenueLayout selectedGuest={selectedGuest}/>
+      </TransformWrapper>
       <TableInfo selectedGuest={selectedGuest}/>
     </>
   )
