@@ -6,15 +6,459 @@
     "name": "Jaina G."
   },
   {
+    "name": "Michael A.",
+    "table": 1,
+    "x": 35.825,
+    "y": 27
+  },
+  {
+    "name": "Polo A.",
+    "table": 1,
+    "x": 32.5,
+    "y": 28.5 
+  },
+  {
+    "name": "Monica A.",
+    "table": 1,
+    "x": 30.5,
+    "y": 31.75
+  },
+  {
+    "name": "Red A.",
+    "table": 1,
+    "x": 30.5,
+    "y": 35.6
+  },
+  {
+    "name": "Daisy M.",
+    "table": 1,
+    "x": 35.825,
+    "y": 40
+  },
+  {
+    "name": "Rommel M.",
+    "table": 1,
+    "x": 39,
+    "y": 38.75
+  },
+  {
+    "name": "Jemika V.",
+    "table": 1,
+    "x": 41.25,
+    "y": 35.6
+  },
+  {
+    "name": "Aime P.",
+    "table": 1,
+    "x": 41.25,
+    "y": 31.8
+  },
+  {
+    "name": "Dennis A.",
+    "table": 1,
+    "x": 39,
+    "y": 28.5
+  },
+  {
+    "name": "John Q.",
+    "table": 2,
+    "x": 21.75,
+    "y": 36
+  },
+  {
+    "name": "Marion E.",
+    "table": 2,
+    "x": 18.25,
+    "y": 37
+  },
+  {
+    "name": "Rosemarie A.",
+    "table": 2,
+    "x": 16.2,
+    "y": 40.4
+  },
+  {
+    "name": "Christen M.",
+    "table": 2,
+    "x": 16.2,
+    "y": 44.3
+  },
+  {
+    "name": "Dima B.",
+    "table": 2,
+    "x": 24.75,
+    "y": 47.5
+  },  
+  {
+    "name": "CJ S.",
+    "table": 2,
+    "x": 27,
+    "y": 44.25
+  },
+  {
+    "name": "Marissa B.",
+    "table": 2,
+    "x": 27,
+    "y": 40.25
+  },
+  {
+    "name": "Brianna F.",
+    "table": 2,
+    "x": 25,
+    "y": 37
+  },
+  {
+    "name": "Willy D.",
+    "table": 3,
+    "x": 34.3,
+    "y": 45.25
+  },
+  {
+    "name": "Kelly L.",
+    "table": 3,
+    "x": 31.1,
+    "y": 46.7
+  },
+  {
+    "name": "Jessilyn H.",
+    "table": 3,
+    "x": 29,
+    "y": 50
+  },
+  {
+    "name": "Tyler H.",
+    "table": 3,
+    "x": 29,
+    "y": 54
+  },
+  {
+    "name": "Ken T.",
+    "table": 3,
+    "x": 39.75,
+    "y": 54
+  },
+  {
+    "name": "Steven C.",
+    "table": 3,
+    "x": 39.75,
+    "y": 50
+  },
+  {
+    "name": "Eliza P.",
+    "table": 3,
+    "x": 37.625,
+    "y": 46.9
+  },
+  {
+    "name": "Heather M.",
+    "table": 4,
+    "x": 38,
+    "y": 62.5
+  },
+  {
+    "name": "Jennifer J.",
+    "table": 4,
+    "x": 34.5,
+    "y": 63.5
+  },
+  {
+    "name": "Kenji O.",
+    "table": 4,
+    "x": 32.6,
+    "y": 67
+  },
+  {
+    "name": "Dan A.",
+    "table": 4,
+    "x": 32.6,
+    "y": 71
+  },
+  {
+    "name": "Jun H.",
+    "table": 4,
+    "x": 43.25,
+    "y": 70.9
+  },
+  {
+    "name": "Dani",
+    "table": 4,
+    "x": 43.2,
+    "y": 67
+  },
+  {
+    "name": "Seongchan L.",
+    "table": 4,
+    "x": 41,
+    "y": 63.7
+  },
+  {
     "name": "Daniel G.",
     "table": 5,
     "x": 52.5,
     "y": 57.5
   },
   {
+    "name": "Julian H.",
+    "table": 5,
+    "x": 49,
+    "y": 59
+  },
+  {
     "name": "Mikaela H.",
     "table": 5,
-    "x": 47.5,
-    "y": 57.5
+    "x": 47,
+    "y": 62
+  },
+  {
+    "name": "Mira G.",
+    "table": 5,
+    "x": 47.2,
+    "y": 66.2
+  },
+  {
+    "name": "Deborah T.",
+    "table": 5,
+    "x": 49,
+    "y": 69.5
+  },
+  {
+    "name": "Mel L.",
+    "table": 5,
+    "x": 52.5, 
+    "y": 70.5
+  },
+  {
+    "name": "Marlon T.",
+    "table": 5,
+    "x": 55.75,
+    "y": 69.5
+  },
+  {
+    "name": "Neil .",
+    "table": 5,
+    "x": 57.75,
+    "y": 66.25
+  },
+  {
+    "name": "Pauline S.",
+    "table": 5,
+    "x": 58,
+    "y": 62
+  },
+  {
+    "name": "Gabriel G.",
+    "table": 5,
+    "x": 55.75,
+    "y": 59
+  },
+  {
+    "name": "Ellaine C.",
+    "table": 6,
+    "x": 66.5,
+    "y": 46.2
+  },
+  {
+    "name": "Ruth P.",
+    "table": 6,
+    "x": 64.75,
+    "y": 49.6
+  },
+  {
+    "name": "Noah C.",
+    "table": 6,
+    "x": 64.75,
+    "y": 53.5
+  },
+  {
+    "name": "Nico C.",
+    "table": 6,
+    "x": 66.5,
+    "y": 56.75
+  },
+  {
+    "name": "Billy C.",
+    "table": 6,
+    "x": 70,
+    "y": 58
+  },
+  {
+    "name": "Nadya C.",
+    "table": 6,
+    "x": 73.25,
+    "y": 56.75
+  },
+  {
+    "name": "Jasmin A.",
+    "table": 6,
+    "x": 75.2,
+    "y": 53.55
+  },
+  {
+    "name": "Jay A.",
+    "table": 6,
+    "x": 75.25,
+    "y": 49.5
+  },
+  {
+    "name": "Joseph A.",
+    "table": 6,
+    "x": 73.25,
+    "y": 46.2
+  },
+  {
+    "name": "Vince L.",
+    "table": 7,
+    "x": 85.5,
+    "y": 41
+  },
+    {
+    "name": "Charlotte L.",
+    "table": 7,
+    "x": 82.4,
+    "y": 42
+  },
+    {
+    "name": "Nathan A.",
+    "table": 7,
+    "x": 80.25,
+    "y": 49.25
+  },
+    {
+    "name": "Pia A.",
+    "table": 7,
+    "x": 82.5,
+    "y": 52.25
+  },
+    {
+    "name": "Penelope A.",
+    "table": 7,
+    "x": 85.5,
+    "y": 53.5
+  },
+    {
+    "name": "Mary A.",
+    "table": 7,
+    "x": 88.75,
+    "y": 52.25
+  },
+    {
+    "name": "Karina Mae A.",
+    "table": 7,
+    "x": 91,
+    "y": 49.1
+  },
+    {
+    "name": "Chris A.",
+    "table": 7,
+    "x": 91,
+    "y": 45
+  },
+  {
+    "name": "Pauline L.",
+    "table": 7,
+    "x": 88.8,
+    "y": 42
+  },
+  {
+    "name": "Edwin G.",
+    "table": 8,
+    "x": 71.4,
+    "y": 27.5
+  },
+  {
+    "name": "Mila G.",
+    "table": 8,
+    "x": 68,
+    "y": 28.5
+  },
+  {
+    "name": "Christin G.",
+    "table": 8,
+    "x": 66,
+    "y": 31.75
+  },
+  {
+    "name": "Percival G.",
+    "table": 8,
+    "x": 66,
+    "y": 36
+  },
+  {
+    "name": "Jeaneth C.",
+    "table": 8,
+    "x": 68,
+    "y": 39
+  },
+  {
+    "name": "Justine V.",
+    "table": 8,
+    "x": 71.4,
+    "y": 40.25
+  },
+  {
+    "name": "Fernando T.",
+    "table": 8,
+    "x": 74.75,
+    "y": 39
+  },
+  {
+    "name": "Daudet T.",
+    "table": 8,
+    "x": 76.75,
+    "y": 36
+  },
+  {
+    "name": "Mercia G.",
+    "table": 8,
+    "x": 76.75,
+    "y": 31.75
+  },
+  {
+    "name": "Ariel G.",
+    "table": 8,
+    "x": 74.75,
+    "y": 28.75
+  },
+  {
+    "name": "Fernando A.",
+    "table": 9,
+    "x": 71.25,
+    "y": 62.75
+  },
+  {
+    "name": "Carol A.",
+    "table": 9,
+    "x": 67.75,
+    "y": 64
+  },
+  {
+    "name": "Mariefe C.",
+    "table": 9,
+    "x": 65.75,
+    "y": 67
+  },
+  {
+    "name": "Allan A.",
+    "table": 9,
+    "x": 65.75,
+    "y": 71.25
+  },
+  {
+    "name": "Cody W.",
+    "table": 9,
+    "x": 76.25,
+    "y": 71.25
+  },
+  {
+    "name": "Robin S.",
+    "table": 9,
+    "x": 76.25,
+    "y": 67
+  },
+  {
+    "name": "Seheui S.",
+    "table": 9,
+    "x": 74.5,
+    "y": 64
   }
 ]
