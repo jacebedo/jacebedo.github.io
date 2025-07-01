@@ -46,7 +46,7 @@ export default function VenueLayout({selectedGuest}) {
 
                 <button onClick={() => zoomIn()}>+</button>
                 <button onClick={() => zoomOut()}>-</button>
-                <button onClick={() => {console.log(markerRef); zoomToElement(markerRef.current, 3, 1, 'easeOut')}}>x</button>
+                <button onClick={() => resetTransform(500 , "easeOut")}>x</button>
               </div>
               <TransformComponent>
                   <ImageMarker src={venueMap} markers={marker} markerComponent={(props) => <CustomMarker ref={markerRef} {...props}/>}/>
